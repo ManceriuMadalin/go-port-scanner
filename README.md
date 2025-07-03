@@ -2,8 +2,6 @@
 
 A simple and fast TCP port scanner written in Go that scans open ports on a given host using concurrent connections.
 
----
-
 ## Features
 
 - Scans a specified range of TCP ports on a host (e.g., `localhost`, IP address, or domain)
@@ -11,13 +9,9 @@ A simple and fast TCP port scanner written in Go that scans open ports on a give
 - Runs scans in parallel using goroutines for increased speed
 - Default connection timeout set to 1 second
 
----
-
 ## Requirements
 
 - Go 1.20 or newer
-
----
 
 ## Usage
 
